@@ -10,6 +10,16 @@ exports.flowControlAnswers = {
     //
     // otherwise the function should return the number, or false if no number
     // was provided or the value provided is not a number
+    //console.log('FizzBuzz: ' + num);
+    function jose(){
+        if(num % 3 === 0){
+            return 'Fizz';
+        }
+        else if(num % 5 === 0){
+            return 'Buzz';
+        }
 
+    }
+   
   }
 };

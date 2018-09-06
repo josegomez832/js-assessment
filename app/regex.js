@@ -22,6 +22,8 @@ exports.regexAnswers = {
   },
 
   isUSD: function(str) {
-
+    var r = /^\$?[0-9]+\.?[0-9]?[0-9]?$/;
+    r.test(str);
+    return str;
   }
 };

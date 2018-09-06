@@ -8,10 +8,13 @@ describe('arrays', function() {
 
   beforeEach(function() {
     a = [ 1, 2, 3, 4 ];
+
   });
 
   it('you should be able to determine the location of an item in an array', function() {
-    expect(arraysAnswers.indexOf(a, 3)).to.eql(2);
+    //console.log(a);
+    expect(arraysAnswers.indexOf(a, 1)).to.eql(2);
+    //return arraysAnswers;
     expect(arraysAnswers.indexOf(a, 5)).to.eql(-1);
   });
 

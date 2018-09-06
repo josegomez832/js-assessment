@@ -7,5 +7,4 @@ exports.asyncAnswers = {
 
   manipulateRemoteData: function(url) {
 
-  }
-};
+}
