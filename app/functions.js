@@ -6,10 +6,12 @@ exports.functionsAnswers = {
   },
 
   speak: function(fn, obj) {
+    console.log('Speak fn:' + fn);
+    console.log(obj);
     // var result = sayIt(obj.greeting + ', ' + obj.name+'!!!');
     // return result;
 
-    //sayIt(obj.greeting + ', ' + obj.name+'!!!');
+    // result(obj.greeting + ', ' + obj.name+'!!!');
   },
 
   functionFunction: function(str) {
